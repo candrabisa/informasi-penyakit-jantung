@@ -1,0 +1,354 @@
+<resources>
+    <string name="app_name">Informasi Penyakit Jantung</string>
+    <string name="tentang_jtg">Jantung</string>
+    <string name="cara_pencegahan">Cara Pencegahan Penyakit Jantung</string>
+    <string name="cara_pencegahan_isi"> 1. Tidak Merokok\n
+        \n2. Jaga Berat Badan\n
+        \n3. Batasi Alkohol\n
+        \n4. Pola Makan Sehat\n
+        \n5. Olahraga Rutin
+    </string>
+    <string name="tentang_jantung_isi">
+        Penyakit jantung adalah kondisi ketika jantung mengalami gangguan. Bentuk gangguan itu sendiri bisa bermacam-macam. Ada gangguan pada pembuluh darah jantung, irama jantung, katup jantung, atau gangguan akibat bawaan lahir. Jantung adalah otot yang terbagi menjadi empat ruang. Dua ruang terletak di bagian atas, yaitu atrium (serambi) kanan dan kiri. Sedangkan dua ruang lagi terletak di bagian bawah, yaitu ventrikel (bilik) kanan dan kiri. Antara ruang kanan dan kiri dipisahkan oleh dinding otot (septum) yang berfungsi mencegah tercampurnya darah yang kaya oksigen dengan darah yang miskin oksigen Fungsi utama jantung adalah mengalirkan darah kaya oksigen ke seluruh bagian tubuh. Setelah seluruh organ tubuh menggunakan oksigen dalam darah, darah yang miskin oksigen tersebut kembali ke jantung (atrium kanan), untuk diteruskan ke ventrikel kanan melalui katup trikuspid. Sesudah darah memenuhi ventrikel kanan, katup trikuspid akan menutup guna mencegah darah kembali ke atrium kanan. Kemudian, saat ventrikel kanan berkontraksi, darah miskin oksigen akan keluar dari jantung melalui katup pulmonal dan arteri pulmonal, lalu dibawa ke paru-paru untuk diisi dengan oksigen. Darah yang telah diperkaya oksigen tadi, kemudian dibawa ke atrium kiri melalui vena pulmonal. Saat atrium kiri berkontraksi, darah akan diteruskan ke ventrikel kiri melalui katup mitral. Setelah ventrikel kiri dipenuhi darah, katup mitral akan menutup untuk mencegah darah kembali ke atrium kiri. Kemudian, ventrikel kiri akan berkontraksi, dan darah akan dialirkan ke seluruh tubuh melalui katup aorta. Siklus peredaran darah tersebut akan terus berulang.
+    </string>
+    <string name="ciri_jtg">Ciri-ciri Sakit Jantung Berdasarkan Jenisnya\n
+\n  Ciri-ciri serangan jantung meliputi:
+\n- Berkeringat, pusing, mual, dan muntah.
+\n- Nyeri di perut bagian atas atau nyeri ulu hati.
+\n- Lemas.
+\n- Sesak napas.
+\n- Detak jantung terasa cepat atau berdebar.
+\n- Perut kembung.
+\n      Aritmia
+\n- Jantung berdebar atau palpitasi.
+\n- Rasa tidak nyaman di dada.
+\n- Pusing.
+\n- Lemas.
+\n- Napas pendek.
+\n- Pingsan.
+\n      Gagal jantung
+\n- Napas sesak saat beristirahat atau berbaring yang diperberat oleh aktivitas fisik.
+\n- Batuk dengan lendir putih.
+\n- Bengkak di perut, kaki, dan pergelangan kaki.
+\n- Pusing.
+\n- Letih dan lemas.
+\n- Sulit berkonsentrasi.
+\n- Detak jantung tidak beraturan.
+\n- Tidak nafsu makan.
+\n      Penyakit katup jantung
+\n- Nyeri di dada saat beraktivitas atau menghirup udara dingin.
+\n- Lemas dan pusing.
+\n- Palpitasi.
+    </string>
+    <string name="cirijtg">Ciri-ciri Penyakit Jantung</string>
+    <string name="findme">Find Me On:</string>
+    <string name="tentang">Tentang</string>
+    <string name="instagram">Instagram</string>
+    <string name="kuis">KUIS</string>
+    <string name="hasil_kuis">Hasil Kuis</string>
+    <string name="kuis_isi">Apa kamu sudah membaca materinya? Jika sudah yuk ikutan kuis untuk mengetahui seberapa besar pemahaman kamu tentang Jantung.</string>
+
+    <!--    String Soal -->
+    <string name="soal1">Dalam sistem peredaran darah manusia dikenal adanya tiga pembuluh darah, yaitu arteri, vena, dan kapiler. Pernyataan berikut ini yang berkaitan dengan vena adalah..</string>
+    <string name="soal2">Di dalam jantung terdapat beberapa katup atau sekat yang membatasi ruang-ruang jantung. Katup semilunaris terdapat antara..</string>
+    <string name="soal3">Aliran darah pada peredaran darah kecil melalui..</string>
+    <string name="soal4">Jantung katak terdiri dari..</string>
+    <string name="soal5">Hewan invertebrata yang mempunyai lima pasang lengkung aorta yang berfungsi sebagai jantung adalah..</string>
+    <string name="soal6">Bagian yang bertanggung jawab atas kontraksi jantung adalah..</string>
+    <string name="soal7">Alat yang digunakan untuk mengukur tekanan darah adalah..</string>
+    <string name="soal8">Leukimia disebabkan oleh saah satu sel darah yang berkembang pesat yaitu..</string>
+    <string name="soal9">Gangguan pada pembulu nadi yang mengeras diakibatkan endapan lemak disebut..</string>
+    <string name="soal10">Tekanan sistol adalah tekanan yang terjadi pada saat darah..</string>
+    <string name="soal11">Di antara pernyataan berikut yang bukan ciri pembuluh arteri adalah..</string>
+    <string name="soal12">Saat jantung berdetak, bagian manakah yang memiliki tekanan paling tinggi?</string>
+    <string name="soal13">Di bawah ini termasuk tanda- tanda umum dari penyakit jantung dekomkordis, kecuali?</string>
+    <string name="soal14">Waktuu- waktu di bawah ini yang perlu diawasi pada penderita penyakit jantung dekomkordis, kecuali?</string>
+    <string name="soal15">Salah satu penyebab terjadinya penyakit jantung ketika kehamilan adalah..</string>
+    <string name="soal16">Di bawah ini yang termasuk komplikasi dari penyakit jantung dekomkordis pada ibu hamil adalah..</string>
+    <string name="soal17">Tanda- tanda dari ibu dengan penyakit jantung kelas dua dibawah ini adalah..</string>
+    <string name="soal18">Tanda- tanda dari ibu dengan penyakit jantung kelas empat dibawah ini adalah..</string>
+    <string name="soal19">Tanda- tanda dari ibu dengan penyakit jantung kelas satu dibawah ini adalah..</string>
+    <string name="soal20">Tanda- tanda dari ibu dengan penyakit jantung kelas tiga dibawah ini adalah..</string>
+    <string name="soal21">Pemeriksaan penunjang yang dialakukan pada ibu perderita jantung dekomkordis ,kecuali?</string>
+    <string name="soal22">Pernyataan dibawah ini yang benar antara lain?</string>
+    <string name="soal23">Dibawah ini dokter kerja sama pada operasi SC pada penderita penyakit jantung dekomkordis antara lain, kecuali?</string>
+    <string name="soal24">Komplikasi dari penyakit jantung pada bayi adalah..</string>
+    <string name="soal25">Jenis obat pada penderita jantung dekomkordis?</string>
+    <string name="soal26">Hal dibawah ini yang benar terkena penyebab penyakit jantung dekomkordis ,kecuali?</string>
+    <string name="soal27">Dimana sel-selnya tidak mampu mensintesis rantai polipeptida alfa dan rantai polipeptida beta yang cukup. Merupakan ciri-ciri penyakit dari..</string>
+    <string name="soal28">Di dalam jantung terdapat beberapa katup atau sekat yang membatasi ruang ruang jantung. Katup semilunaris terdapat antara..</string>
+    <string name="soal29">Yang dahulu di duga sebagai penyebab penyakit jantung adalah..</string>
+    <string name="soal30">Jenis-jenis penyakit jantung, kecuali..</string>
+    <string name="soal31">Berikut ini yang terjadi pada fungsi katup stenosis..</string>
+    <string name="soal32">Bakteri penyebab terjadinya katup jantung adalah..</string>
+    <string name="soal33">Dibawah ini yang termasuk penyabab terjadinya malfungsi katup jantung..</string>
+    <string name="soal34">Temuan yang diamati pada stonis mitral kecuali?</string>
+    <string name="soal35">Jantung normal berdetak sekitar 115ribu kali perdetik, jika kurang dari itu jantung kamu bisa terkena penyakit yang dimaksud adalah..</string>
+    <string name="soal36">Jantung normal berdetak sekitar 115ribu kali perdetik, jika lebih dari itu jantung kamu bisa terkena penyakit yang dimaksud adalah..</string>
+    <string name="soal37">Sebutan ilmiah bagian atas jantung adalah..</string>
+    <string name="soal38">Sebutan ilmiah bagian bawah jantung adalah..</string>
+    <string name="soal39">Keadaan yang dapat menimbulkan gaga; jantung, kecuali?</string>
+    <string name="soal40">Antara ini gejala gagal jantung, kecuali?</string>
+    <string name="soal41">Alat pacu jantung pertama kali digunakan pada tahun…oleh Arne Lasson?</string>
+    <string name="soal42">Apabila fungsi pompa jantung memompakan darah dengan segala nutrisi gagal dapat mengakibatkan?</string>
+    <string name="soal43">Pembuluh darah yang berfungsi memberi makan dan oksigen ke otot-otot jantung adalah..</string>
+    <string name="soal44">Siapa saja orang yang beresiko terkena penyakit jantung koroner?</string>
+    <string name="soal45">Penyambutan atau penyempitan pada pembuluh darah koroner akibat kerusakan lapisan dinding pembuluh yang diikuti oleh penebalan dan kelakuan pembuluh tersebut adalah..</string>
+    <string name="soal46">Cara-cara pencegahan terjadinya penyakit jantung..</string>
+    <string name="soal47">Yang termasuk EKG pada regurgitasi mitralis kecuali..</string>
+    <string name="soal48">Ciri-ciri penyakit jantung..</string>
+    <string name="soal49">Yang diamati oleh kardiografi pada regurgitasi mitralis adalah..</string>
+    <string name="soal50">Dibawah ini termasuk temuan homodinamik pada stenosis mirtalis..</string>
+
+    <!--  String Jawaban  -->
+    <string name="jwb1a">Mengangkut darah di mana kadar darah O2 tinggi</string>
+    <string name="jwb1b">Jalannya meninggalkan jantung</string>
+    <string name="jwb1c">Mengangkut darah di mana kadar darah CO2 tinggi</string>
+    <string name="jwb1d">Mengangkut darah di mana kadar darah CO2 tinggi Jalannya menuju jantung</string>
+
+    <string name="jwb2a">Bilik kiri dengan aorta</string>
+    <string name="jwb2b">Serambi kanan dan bilik kanan</string>
+    <string name="jwb2c">Bilik kanan dan nadi paru-paru</string>
+    <string name="jwb2d">Serambi kiri dan bilik kiri</string>
+
+    <string name="jwb3a">Jantung – aorta – seluruh tubuh – jantung</string>
+    <string name="jwb3b">Jantung – arteri pulmonis – paru paru – vena pulmonis – jantung</string>
+    <string name="jwb3c">Jantung – seluruh tubuh – paru paru– jantung</string>
+    <string name="jwb3d">Jantung – vena pulmonis – arteri pulmonis – jantung</string>
+
+    <string name="jwb4a">2 atrium dan 2 ventrikel</string>
+    <string name="jwb4b">2 atrium dan 1 ventrikel</string>
+    <string name="jwb4c">1 atrium dan 1 ventrikel</string>
+    <string name="jwb4d">1 atrium dan 2 ventrikal</string>
+
+    <string name="jwb5a">Siput</string>
+    <string name="jwb5b">Cacing</string>
+    <string name="jwb5c">Serangga</string>
+    <string name="jwb5d">Planaria</string>
+
+    <string name="jwb6a">Perikardium</string>
+    <string name="jwb6b">Endokardim</string>
+    <string name="jwb6c">Myokardium</string>
+    <string name="jwb6d">Epikardium</string>
+
+    <string name="jwb7a">Spigmomanometer</string>
+    <string name="jwb7b">Stetoskop</string>
+    <string name="jwb7c">Anemometer</string>
+    <string name="jwb7d">Termometer Raksa</string>
+
+    <string name="jwb8a">Eritrosit</string>
+    <string name="jwb8b">Trombosit</string>
+    <string name="jwb8c">Leukosit</string>
+    <string name="jwb8d">Limfosit</string>
+
+    <string name="jwb9a">Trombus</string>
+    <string name="jwb9b">Embolus</string>
+    <string name="jwb9c">Hemaroid</string>
+    <string name="jwb9d">Artherosklerosis</string>
+
+    <string name="jwb10a">Keluar dari serambi jantung</string>
+    <string name="jwb10b">Masuk ke serambi jantung</string>
+    <string name="jwb10c">Masuk ke bilik jantung</string>
+    <string name="jwb10d">Keluar dari jantung</string>
+
+    <string name="jwb11a">Tempat keluarnya darah dari jantung</string>
+    <string name="jwb11b">Membawa darah menuju jantung</string>
+    <string name="jwb11c">Letaknya di daerah agak dalam dari kulit</string>
+    <string name="jwb11d">Membawa oksigen keluar dari jantung</string>
+
+    <string name="jwb12a">Serambi kiri</string>
+    <string name="jwb12b">Bilik kiri</string>
+    <string name="jwb12c">Serambi kanan</string>
+    <string name="jwb12d">Bilik kanan</string>
+
+    <string name="jwb13a">Praktis lelah</string>
+    <string name="jwb13b">Nafas terengah- engah</string>
+    <string name="jwb13c">Edema tungkai kaki</string>
+    <string name="jwb13d">Anemia</string>
+
+    <string name="jwb14a">Pada minggu ke 12 kehamilan</string>
+    <string name="jwb14b">Pada minggu kurang 12 kehamilan</string>
+    <string name="jwb14c">Pada ketika persalinan</string>
+    <string name="jwb14d">Pada minggu ke 32 kehamilan</string>
+
+    <string name="jwb15a">Anemia</string>
+    <string name="jwb15b">DM</string>
+    <string name="jwb15c">Hipertensi gravidarum</string>
+    <string name="jwb15d">Kehamilan post date</string>
+
+    <string name="jwb16a">Odema paru</string>
+    <string name="jwb16b">Anemia</string>
+    <string name="jwb16c">KET</string>
+    <string name="jwb16d">Pendarahan antepartum</string>
+
+    <string name="jwb17a">Merasakan nyeri pada anginanya</string>
+    <string name="jwb17b">Merasa nyaman ketika istirahat tetapi apabila melaksanakan aktifitas fisiknya ibu akan mencicipi lelah berlebihan</string>
+    <string name="jwb17c">Merasa nyaman dalam keadaan istirahat, tetapi aktifitas yang kurang dari biasa ibu akan mencicipi lelah yang berlebihan</string>
+    <string name="jwb17d">Tidak bisa melaksanakan aktifitas fisik apapun</string>
+
+    <string name="jwb18a">Tidak mencicipi nyeri pada anginanya</string>
+    <string name="jwb18b">Merasa nyaman ketika istirahat tetapi apabila melaksanakan aktifitas fisiknya ibu akan mencicipi lelah berlebihan</string>
+    <string name="jwb18c">Merasa nyaman dalam keadaan istirahat, tetapi aktifitas yang kurang dari biasa ibu akan mencicipi lelah yang berlebihan</string>
+    <string name="jwb18d">Tidak bisa melaksanakan aktifitas fisik apapun</string>
+
+    <string name="jwb19a">Merasakan nyeri pada anginanya</string>
+    <string name="jwb19b">Merasa nyaman ketika istirahat tetapi apabila melaksanakan aktifitas fisiknya ibu akan mencicipi lelah berlebihan</string>
+    <string name="jwb19c">Tidak bisa melaksanakan aktifitas fisik apapun</string>
+    <string name="jwb19d">Tidak ada pembatasan fisik apapun</string>
+
+    <string name="jwb20a">Tidak mencicipi nyeri pada anginanya</string>
+    <string name="jwb20b">Merasa nyaman ketika istirahat tetapi apabila melaksanakan aktifitas fisiknya ibu akan mencicipi lelah berlebihan</string>
+    <string name="jwb20c">Merasa nyaman dalam keadaan istirahat, tetapi aktifitas yang kurang dari biasa ibu akan mencicipi lelah yang berlebihan</string>
+    <string name="jwb20d">Tidak bisa melaksanakan aktifitas fisik apapun</string>
+
+    <string name="jwb21a">USG</string>
+    <string name="jwb21b">Foto toraks</string>
+    <string name="jwb21c">Ekokardiografi</string>
+    <string name="jwb21d">LFT</string>
+
+    <string name="jwb22a">Pada ibu penderita jantung kelas 3 dan 4 persalinan dilakukan dengan operasi SC</string>
+    <string name="jwb22b">Pada ibu penderita jantung persalinan hanya bisa dilakukan perv461n4m</string>
+    <string name="jwb22c">Pada ibu penderita kelas 2 persalinan harus dilakukan SC</string>
+    <string name="jwb22d">Pada ibu penderita jantung kelas 1 harus dilakukan dengan SC</string>
+
+    <string name="jwb23a">Dokter anak</string>
+    <string name="jwb23b">Dokter penyakit dalam</string>
+    <string name="jwb23c">Dokter hebat jantung</string>
+    <string name="jwb23d">Dokter obgien</string>
+
+    <string name="jwb24a">KET</string>
+    <string name="jwb24b">Prematuritas</string>
+    <string name="jwb24c">KPSW</string>
+    <string name="jwb24d">Letak sungsang</string>
+
+    <string name="jwb25a">Vasodilator</string>
+    <string name="jwb25b">Diuritik</string>
+    <string name="jwb25c">Analgetik</string>
+    <string name="jwb25d">Vasodilator dan deuritik</string>
+
+    <string name="jwb26a">Terjadinya penurunan resistensi periver dan emboli polmonal dari thrombus iliofemoral</string>
+    <string name="jwb26b">Terjadinya perubahan hemodinamik</string>
+    <string name="jwb26c">Kontraksi uterus meningkatkan jumlah darah dalam sirkulasi sitemik</string>
+    <string name="jwb26d">Perdarahan kedalam desidua basalis lalu terbelah dan meninggalkan lapisan tipis yang menempel pada miometrium.</string>
+
+    <string name="jwb27a">Leukimia</string>
+    <string name="jwb27b">Anemia</string>
+    <string name="jwb27c">Talasemia</string>
+    <string name="jwb27d">Jantung</string>
+
+    <string name="jwb28a">Bilik kiri dengan aorta</string>
+    <string name="jwb28b">Serambi kanan dan bilik kanan</string>
+    <string name="jwb28c">Bilik lkanan dan nadi paru paru</string>
+    <string name="jwb28d">Serambi kiri dan bilik kiri</string>
+
+    <string name="jwb29a">Rematik</string>
+    <string name="jwb29b">Olahraga yang berlebihan</string>
+    <string name="jwb29c">Lemak</string>
+    <string name="jwb29d">Semua salah</string>
+
+    <string name="jwb30a">Regurtasi aorta</string>
+    <string name="jwb30b">Stenosis aorta</string>
+    <string name="jwb30c">Stenosis vena</string>
+    <string name="jwb30d">Stenosis mertalis</string>
+
+    <string name="jwb31a">Peningkatan tekanan jantung</string>
+    <string name="jwb31b">Pemompaan lebih banyak</string>
+    <string name="jwb31c">Penurunan tekanan jantung</string>
+    <string name="jwb31d">semua salah</string>
+
+    <string name="jwb32a">Streptokukus</string>
+    <string name="jwb32b">Sarccina</string>
+    <string name="jwb32c">Vibrio</string>
+    <string name="jwb32d">Streotobasil</string>
+
+    <string name="jwb33a">Malforasi kongenital</string>
+    <string name="jwb33b">Disfungsi otot papilaris karena ateroskerosis koroner</string>
+    <string name="jwb33c">Defek jaringan penyambung sejak lahor</string>
+    <string name="jwb33d">Semua benar</string>
+
+    <string name="jwb34a">Radiografi dada</string>
+    <string name="jwb34b">Kateterisasi jantung</string>
+    <string name="jwb34c">EKG</string>
+    <string name="jwb34d">Auskulturasi</string>
+
+    <string name="jwb35a">Bradikardia</string>
+    <string name="jwb35b">Bronkitis</string>
+    <string name="jwb35c">Influenza</string>
+    <string name="jwb35d">Supraventikulaso</string>
+
+    <string name="jwb36a">Bradikardia</string>
+    <string name="jwb36b">Bronkitis</string>
+    <string name="jwb36c">Influenza</string>
+    <string name="jwb36d">Supraventikulaso</string>
+
+    <string name="jwb37a">Ventrikel</string>
+    <string name="jwb37b">Atrium</string>
+    <string name="jwb37c">Bilik</string>
+    <string name="jwb37d">Serambi</string>
+
+    <string name="jwb38a">Ventrikel</string>
+    <string name="jwb38b">Atrium</string>
+    <string name="jwb38c">Bilik</string>
+    <string name="jwb38d">Serambi</string>
+
+    <string name="jwb39a">Infark miokardium</string>
+    <string name="jwb39b">Regurgitas aorta</string>
+    <string name="jwb39c">Kelainan genetik</string>
+    <string name="jwb39d">Hipertensi</string>
+
+    <string name="jwb40a">Kelelahan</string>
+    <string name="jwb40b">Dispanea</string>
+    <string name="jwb40c">Muntah-muntah</string>
+    <string name="jwb40d">Anoreksia</string>
+
+    <string name="jwb41a">1950</string>
+    <string name="jwb41b">1937</string>
+    <string name="jwb41c">1985</string>
+    <string name="jwb41d">1963</string>
+
+    <string name="jwb42a">Serangan jantung</string>
+    <string name="jwb42b">Sakit hati</string>
+    <string name="jwb42c">Sakit jantung</string>
+    <string name="jwb42d">Gagal jantung</string>
+
+    <string name="jwb43a">Pembuluh darah</string>
+    <string name="jwb43b">Pembuluh darah koroner</string>
+    <string name="jwb43c">Pembuluh darah merah</string>
+    <string name="jwb43d">Pembuluh darah hijau</string>
+
+    <string name="jwb44a">Orang yang sakit hipertensi</string>
+    <string name="jwb44b">Orang yang sakit kencing manis</string>
+    <string name="jwb44c">Orang yang kolesterolnya tinggi</string>
+    <string name="jwb44d">Semua benar</string>
+
+    <string name="jwb45a">Penyakit jantung koroner</string>
+    <string name="jwb45b">Aritmia</string>
+    <string name="jwb45c">Angina pectoris</string>
+    <string name="jwb45d">Infark miokard</string>
+
+    <string name="jwb46a">Merokok</string>
+    <string name="jwb46b">Berolahraga tidak teratur</string>
+    <string name="jwb46c">Mengkonsumsi alkohol</string>
+    <string name="jwb46d">Pola makan sehat</string>
+
+    <string name="jwb47a">Fibrilasi atrium</string>
+    <string name="jwb47b">Pembesaran ventrikel kiri</string>
+    <string name="jwb47c">Pembesaran ventrikel kanan</string>
+    <string name="jwb47d">Semua salah</string>
+
+    <string name="jwb48a">Sesak nafas</string>
+    <string name="jwb48b">Lemas</string>
+    <string name="jwb48c">Berkeringat</string>
+    <string name="jwb48d">Semua benar</string>
+
+    <string name="jwb49a">Memastikan pembesaran ruang katup</string>
+    <string name="jwb49b">Menilai mobilitas katup</string>
+    <string name="jwb49c">Klasifikasi katup</string>
+    <string name="jwb49d">Ketebalan katup</string>
+
+    <string name="jwb50a">Perbedaan aorta yang bermakna</string>
+    <string name="jwb50b">Peningkatan tekanan diastolik akhir ventrikel kiri</string>
+    <string name="jwb50c">Peningkatan tekanan paru-paru</string>
+    <string name="jwb50d">Curah jantung rendah</string>
+
+</resources>

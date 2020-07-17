@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.activity_kuis">
+
+    <LinearLayout
+        android:id="@+id/soall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="SOAL"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_Soal1"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/soall">
+        <TextView
+            android:id="@+id/tv_soal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/soal1"
+            android:textSize="16sp"
+            android:justificationMode="inter_word"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_jawab"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_Soal1"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jawab:"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_jawab">
+        <RelativeLayout
+            android:id="@+id/ll_jawabanSalah1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            >
+            <Button
+                android:id="@+id/btn_a"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:paddingTop="4dp"
+                android:justificationMode="inter_word"
+                android:onClick="onClickBtn"
+                android:drawableTop="@drawable/a"
+                android:background="@android:color/holo_green_dark"
+                android:textColor="@android:color/white"
+                android:text="Mengangkut darah di mana kadar darah O2 tinggi"/>
+            <Button
+                android:id="@+id/btn_b"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/btn_a"
+                android:onClick="onClickBtn"
+                android:drawableTop="@drawable/b"
+                android:justificationMode="inter_word"
+                android:background="@android:color/darker_gray"
+                android:paddingTop="4dp"
+                android:textColor="@android:color/white"
+                android:text="Jalannya meninggalkan jantung"/>
+            <Button
+                android:id="@+id/btn_c"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@id/btn_b"
+                android:paddingTop="4dp"
+                android:onClick="onClickBtn"
+                android:layout_marginTop="8dp"
+                android:justificationMode="inter_word"
+                android:drawableTop="@drawable/c"
+                android:background="@android:color/holo_purple"
+                android:textColor="@android:color/white"
+                android:text="Mengangkut darah di mana kadar darah CO2 tinggi"/>
+            <Button
+                android:id="@+id/btn_d"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/btn_c"
+                android:background="@android:color/holo_orange_dark"
+                android:layout_marginTop="8dp"
+                android:paddingTop="4dp"
+                android:onClick="onClickBtn"
+                android:justificationMode="inter_word"
+                android:drawableTop="@drawable/d"
+                android:text="Mengangkut darah di mana kadar darah CO2 tinggi Jalannya menuju jantung"
+                android:textColor="@android:color/white"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

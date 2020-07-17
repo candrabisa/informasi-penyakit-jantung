@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/medical_heart_52px"
+        android:title="Beranda" />
+
+    <item
+        android:id="@+id/navigation_carapencegahan"
+        android:icon="@drawable/handshake_heart_50px"
+        android:title="Pencegahan"/>
+
+    <item
+        android:id="@+id/navigation_ciripenyakitjantung"
+        android:icon="@drawable/heart_monitor_50px"
+        android:title="Penyakit Jantung" />
+
+<!--    <item-->
+<!--        android:id="@+id/navigation_quiz"-->
+<!--        android:icon="@drawable/scorecard_50px"-->
+<!--        android:title="Kuis"/>-->
+</menu>
