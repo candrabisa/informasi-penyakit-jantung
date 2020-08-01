@@ -4,8 +4,10 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
@@ -15,9 +17,12 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.radita.informasipenyakitjantung.R;
 import com.radita.informasipenyakitjantung.fragment.fragment_beranda;
 import com.radita.informasipenyakitjantung.fragment.fragment_ciripenyakit;
+import com.radita.informasipenyakitjantung.fragment.fragment_diagnosis;
 import com.radita.informasipenyakitjantung.fragment.fragment_pencegahan;
 
 public class MainActivity extends AppCompatActivity {
+
+    private Boolean exit = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,6 +70,14 @@ public class MainActivity extends AppCompatActivity {
                             .replace(R.id.fragment_container, fragmentCiripenyakit)
                             .commit();
                     return true;
+
+                case R.id.navigation_diagnosis:
+                    fragment_diagnosis fragmentDiagnosis = new fragment_diagnosis();
+                    getSupportFragmentManager()
+                            .beginTransaction()
+                            .replace(R.id.fragment_container, fragmentDiagnosis)
+                            .commit();
+                    return true;
             }
             return false;
         }
@@ -107,5 +120,21 @@ public class MainActivity extends AppCompatActivity {
                 alert.show();
         }
         return super.onOptionsItemSelected(item);
+    }
+    @Override
+    public void onBackPressed() {
+        if (exit) {
+            finish(); // finish activity
+        } else {
+            Toast.makeText(this, "Tekan back sekali lagi",
+                    Toast.LENGTH_SHORT).show();
+            exit = true;
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    exit = true;
+                }
+            }, 3 * 1000);
+        }
     }
 }

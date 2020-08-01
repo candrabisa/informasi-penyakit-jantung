@@ -15,6 +15,12 @@
         android:icon="@drawable/heart_monitor_50px"
         android:title="Penyakit Jantung" />
 
+    <item
+        android:id="@+id/navigation_diagnosis"
+        android:icon="@drawable/heart_health_50px"
+        android:title="Diagnosis"/>
+
+
 <!--    <item-->
 <!--        android:id="@+id/navigation_quiz"-->
 <!--        android:icon="@drawable/scorecard_50px"-->

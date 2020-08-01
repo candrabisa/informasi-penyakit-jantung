@@ -23,7 +23,6 @@ public class activity_kuis extends AppCompatActivity {
     int anscnt = 0;
     int correct_ans_count;
     int correct_answer[] = new int[50];
-    String user_name;
 
 
     //function for generating unique number
@@ -193,10 +192,8 @@ public class activity_kuis extends AppCompatActivity {
             //Toast.makeText(getApplicationContext(),"Quiz is completed. Thankyou", Toast.LENGTH_LONG).show();
 
             Intent i = getIntent();
-            String user_name = i.getStringExtra("name");
             //here i just want to pass array to next activity
             Intent intd = new Intent(getApplicationContext(), activity_hasil_kuis.class);
-            intd.putExtra("user_name",user_name);
             intd.putExtra("total", Integer.toString(correct_ans_count));
             startActivity(intd);
         }

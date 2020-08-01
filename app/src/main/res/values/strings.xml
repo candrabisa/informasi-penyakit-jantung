@@ -13,33 +13,34 @@
     </string>
     <string name="ciri_jtg">Ciri-ciri Sakit Jantung Berdasarkan Jenisnya\n
 \n  Ciri-ciri serangan jantung meliputi:
-\n- Berkeringat, pusing, mual, dan muntah.
-\n- Nyeri di perut bagian atas atau nyeri ulu hati.
-\n- Lemas.
-\n- Sesak napas.
-\n- Detak jantung terasa cepat atau berdebar.
-\n- Perut kembung.
-\n      Aritmia
-\n- Jantung berdebar atau palpitasi.
-\n- Rasa tidak nyaman di dada.
-\n- Pusing.
-\n- Lemas.
-\n- Napas pendek.
-\n- Pingsan.
-\n      Gagal jantung
-\n- Napas sesak saat beristirahat atau berbaring yang diperberat oleh aktivitas fisik.
-\n- Batuk dengan lendir putih.
-\n- Bengkak di perut, kaki, dan pergelangan kaki.
-\n- Pusing.
-\n- Letih dan lemas.
-\n- Sulit berkonsentrasi.
-\n- Detak jantung tidak beraturan.
-\n- Tidak nafsu makan.
-\n      Penyakit katup jantung
-\n- Nyeri di dada saat beraktivitas atau menghirup udara dingin.
-\n- Lemas dan pusing.
-\n- Palpitasi.
+\n-Berkeringat, pusing, mual, dan muntah.
+\n-Nyeri di perut bagian atas atau nyeri ulu hati.
+\n-Lemas.
+\n-Sesak napas.
+\n-Detak jantung terasa cepat atau berdebar.
+\n-Perut kembung.
+\n-Aritmia
+\n-Jantung berdebar atau palpitasi.
+\n-Rasa tidak nyaman di dada.
+\n-Pusing.
+\n-Lemas.
+\n-Napas pendek.
+\n-Pingsan.
+\n-Gagal jantung
+\n-Napas sesak saat beristirahat atau berbaring yang diperberat oleh aktivitas fisik.
+\n-Batuk dengan lendir putih.
+\n-Bengkak di perut, kaki, dan pergelangan kaki.
+\n-Pusing.
+\n-Letih dan lemas.
+\n-Sulit berkonsentrasi.
+\n-Detak jantung tidak beraturan.
+\n-Tidak nafsu makan.
+\n-Penyakit katup jantung
+\n-Nyeri di dada saat beraktivitas atau menghirup udara dingin.
+\n-Lemas dan pusing.
+\n-Palpitasi.
     </string>
+
     <string name="cirijtg">Ciri-ciri Penyakit Jantung</string>
     <string name="findme">Find Me On:</string>
     <string name="tentang">Tentang</string>
@@ -350,5 +351,12 @@
     <string name="jwb50b">Peningkatan tekanan diastolik akhir ventrikel kiri</string>
     <string name="jwb50c">Peningkatan tekanan paru-paru</string>
     <string name="jwb50d">Curah jantung rendah</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gejala">Apakah kamu memiliki gejala tersebut?, Yuk coba diagnosa gejala yang kamu alami</string>
+    <string name="diagnosis">Diagnosis</string>
+    <string name="ya">Ya</string>
+    <string name="tidak">Tidak</string>
 
 </resources>
