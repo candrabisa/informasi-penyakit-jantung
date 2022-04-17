@@ -1,3 +1,3 @@
 # informasi-penyakit-jantung
 
-Created by Radita
+Created by me for radita
